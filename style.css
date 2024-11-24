@@ -1,0 +1,48 @@
+body{
+    background-color: rgb(53, 91, 79);
+}
+
+main{
+    text-align: center;
+}
+
+h1{
+    font-size: 60px;
+}
+
+.container{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.game{
+    width: 380px;
+    height: 380px;
+}
+
+.box{
+    vertical-align: top;
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    border: none;
+    margin: 10px;
+    color: maroon;
+    font-size: 40px;  
+    background-color: bisque;  
+}
+
+.reset{
+    margin-top: 10px;
+    background-color: black;
+    color: white;
+    padding: 30px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+.msg{
+    font-size: 40px;
+    color: white;
+}
